@@ -11,12 +11,14 @@ app.use(express.json());
 
 // Conexão com PostgreSQL
 const pool = new Pool({
-  host: process.env.DB_HOST || 'db',
-  port: 5432,
-  user: 'todouser',
-  password: 'todopass',
-  database: 'tododb'
+  user: process.env.POSTGRES_USER || "todouser",
+  host: process.env.DB_HOST || "localhost",
+  database: process.env.POSTGRES_DB || "tododb",
+  password: process.env.POSTGRES_PASSWORD || "todopass",
+  port: 5434,
 });
+
+
 
 // Criar tabela se não existir
 pool.query(`

@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "3b4462eb-4089-4b0b-aaf7-0db066a2b0d3",
+		"name": "Todo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50666525",
+		"_collection_link": "https://victor060-168370.postman.co/workspace/Victor-Gomes's-Workspace~7d7682b6-6d6c-4fc6-8678-4e0ca10d38e3/collection/50666525-3b4462eb-4089-4b0b-aaf7-0db066a2b0d3?action=share&source=collection_link&creator=50666525"
+	},
+	"item": [
+		{
+			"name": "GET - Listar Tarefas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Criar Tarefa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Minha primeira tarefa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar Tarefa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Atualizar Tarefa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Deletar Tarefa",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
