@@ -19,8 +19,11 @@ docker-compose up -d
 
 3. Acesse as aplicações:
 Frontend: http://18.220.2.122:8080/
+
 Backend: http://18.220.2.122/
+
 Zabbix: http://18.220.2.122:8081/
+
 Grafana: http://18.220.2.122:3001/
 
 ## 📡 Endpoints da API
