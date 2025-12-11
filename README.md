@@ -1,3 +1,5 @@
+ALUNOS: Pedro Victor Gomes de Almeida Costa (01260313) e Filipe Alexandre Bulhões (01435394)
+
 # Sistema de Tarefas (To-Do List)
 
 Sistema simples de gerenciamento de tarefas com backend Node.js, frontend HTML/CSS/JS e PostgreSQL.
