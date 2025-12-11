@@ -8,7 +8,7 @@
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/todo-app.git
+git clone https://github.com/victor060/todo-app.git
 cd todo-app
 ```
 
