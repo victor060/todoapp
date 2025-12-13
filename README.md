@@ -50,10 +50,3 @@ docker-compose up -d
 
 Importe a collection disponível em `postman/todo-api.json`
 ```
-
-### 6.2 Criar `.gitignore`
-```
-node_modules/
-.env
-*.log
-.DS_Store
